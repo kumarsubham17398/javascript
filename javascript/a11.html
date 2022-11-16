@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+<body>
+
+
+<input id="myInput" type="text">
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var text;
+  var fruits = document.getElementById("myInput").value;
+
+  switch(car) {
+    case "Hyundai i10":
+      text = "Hyundai i10 is good!";
+    break;
+    case "Maruti Swift":
+    text = "I am not a fan ofMaruti Swift.";
+    break;
+    case "Maruti Wagon R":
+    text = "How you like themMaruti Wagon R?";
+    break;
+    default:
+    text = "I have never heard of that car...";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+</body></html>
